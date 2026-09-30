@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Define a codificação de caracteres para aceitar acentos (Ex: á, ç, õ) -->
+    <meta charset="UTF-8">
+    <!-- Garante que o site seja responsivo (se adapte bem a telas de celulares e tablets) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Esplendor Cromado: Cadillac Coupe de Ville 1950</title>
+
+    <!-- Link de conexão: Diz ao navegador para ler as regras visuais que estão no arquivo style.css -->
+    <link rel="stylesheet" href="carrosantigos.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho principal do site (Topo) -->
+    <header class="main-header">
+        <!-- Camada escura por cima da imagem de fundo para dar leitura ao texto -->
+        <div class="header-overlay">
+            <h1>Cadillac Series 62</h1>
+            <p>O lendário Coupe de Ville de 1950 e a era de ouro do design automotivo norte-americano.</p>
+        </div>
+    </header>
+
+    <!-- Caixa container: Agrupa e limita a largura do conteúdo central para não espalhar nas bordas da tela -->
+    <div class="container">
+
+        <!-- SEÇÃO 1: História e Conceito de Saudosismo -->
+        <section id="historia">
+            <h2>Uma Obra-Prima Extinta</h2>
+            <!-- Grid: Divide essa área em duas colunas (Texto na esquerda e Imagem na direita) -->
+            <div class="grid-content">
+                <div class="text-block">
+                    <p>O <strong>Cadillac Series 62 Coupe de Ville 1950</strong> não era apenas um meio de transporte;
+                        ele era a materialização física do sucesso e do luxo no pós-guerra. Em uma época em que o
+                        combustível era abundante e a imaginação dos designers não encontrava limites, a Cadillac
+                        introduziu linhas que revolucionaram o mundo.</p>
+                    <p>Hoje, em um mundo dominado por carros elétricos compactos, SUVs padronizados e foco absoluto na
+                        eficiência aerodinâmica matemática, a grandiosidade extravagante do Coupe de Ville 1950 deixou
+                        de existir em nossa realidade cotidiana. Ele sobrevive apenas no coração dos colecionadores e no
+                        sentimento nostálgico dos entusiastas.</p>
+                </div>
+                <!-- Elemento visual que carrega a imagem do carro via CSS -->
+                <div class="img-placeholder" title="Cadillac Vintage Ilustrativo"></div>
+            </div>
+
+            <!-- Caixa de destaque para uma frase marcante (Citação) -->
+            <div class="destaque-box">
+                "As famosas aletas traseiras, inspiradas nos caças bimotores Lockheed P-38 da Segunda Guerra Mundial,
+                nasceram discretas em 1948, mas definiram a assinatura visual e o exagero estético dos anos 50."
+            </div>
+        </section>
+
+        <!-- SEÇÃO 2: Elemento de Mídia (Vídeo) -->
+        <section id="multimidia">
+            <h2>Memórias em Movimento</h2>
+            <p>Assista abaixo a um compilado histórico e sinta a nostalgia do ronco do lendário motor V8 OHV de 331
+                polegadas cúbicas, um marco de engenharia que ditou os rumos da indústria.</p>
+
+            <!-- Container do vídeo: Mantém a proporção da tela do player correta (16:9) em qualquer dispositivo -->
+            <div class="video-container">
+                <!-- iframe: Incorpora com segurança um elemento externo (vídeo do YouTube) diretamente na página -->
+                <iframe src="https://youtube.com" title="1950 Cadillac Coupe de Ville" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- SEÇÃO 3: Dados Técnicos (Tabela) -->
+        <section id="especificacoes">
+            <h2>Ficha Técnica da Época</h2>
+            <p>Uma engenharia pura, sem assistência de computadores, sensores ou injeção eletrônica. Tudo era mecânica,
+                peso e imponência.</p>
+
+            <!-- Permite rolar a tabela para o lado caso a tela do celular seja muito pequena -->
+            <div class="table-responsive">
+                <table class="tech-table">
+                    <!-- head (thead): Cabeçalho da tabela -->
+                    <thead>
+                        <tr>
+                            <th>Atributo</th>
+                            <th>Especificação Original (1950)</th>
+                        </tr>
+                    </thead>
+                    <!-- body (tbody): Linhas com as informações reais -->
+                    <tbody>
+                        <tr>
+                            <td><strong>Motor</strong></td>
+                            <td>V8 Monobloco 5.4 Litros (331 cu in)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Potência</strong></td>
+                            <td>160 Cavalos de força (BHP)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Transmissão</strong></td>
+                            <td>Automática Hydra-Matic de 4 marchas</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Comprimento</strong></td>
+                            <td>5,61 metros (Uma verdadeira banheira americana)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Destaque Histórico</strong></td>
+                            <td>Introdução do teto rígido (Hardtop) sem coluna central</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
